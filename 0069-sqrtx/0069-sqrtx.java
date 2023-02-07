@@ -2,9 +2,7 @@ import static java.lang.Math.*;
 
 class Solution{
     public int mySqrt(int x) {
-       // int ans = 0;
-       // double result = sqrt(x);    
-        int ans = (int) sqrt(x); // 정수 제곱근을 뽑기 위해 int
+        int ans = (int) sqrt(x); // 제곱근의 결과가 double로 나오기에 int로 형 변환
         
         return ans;
     }
